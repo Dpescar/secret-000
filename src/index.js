@@ -15,12 +15,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <BrowserRouter basename='/Dpescar/secret-000/tree/Schlenge-branch'>
         <App />
         <ToastContainer
-          position='top-center'
+          position="top-center"
           autoClose={3000}
           hideProgressBar={true}
           newestOnTop={true}
           closeOnClick
-          theme='colored' />
+          theme="colored"
+        />
       </BrowserRouter>
     </PersistGate>
-  </Provider>);
+  </Provider>
+);

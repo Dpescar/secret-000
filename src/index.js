@@ -12,7 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-      <BrowserRouter basename='/bc-react-65-Yeva-Kolesova'>
+      <BrowserRouter basename='/Dpescar/secret-000/tree/Schlenge-branch'>
         <App />
         <ToastContainer
           position='top-center'

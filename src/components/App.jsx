@@ -26,18 +26,8 @@ export const App = () => {
     dispatch(refreshUser());
   }, [dispatch]);
 
-/*  const HomePage = lazy(() => import('../pages/HomePage/HomePage'));
-  const CurrencyPage = lazy(() => import('../pages/CurrencyPage'));
-  const DashboardPage = lazy(() =>
-    import('../pages/DashboardPage/DashboardPage')
-  );
-  const LoginPage = lazy(() => import('../pages/LoginPage'));
-  const RegistrationPage = lazy(() => import('../pages/RegistrationPage'));
-  const StatisticsPage = lazy(() =>
-    import('../pages/StatisticPage/StatisticsPage')
-  );*/
   return isRefreshing ? (
-      <Loader visible={isLoading} />
+    <Loader visible={isLoading} />
   ) : (
     <>
       <Routes>
@@ -90,5 +80,5 @@ export const App = () => {
       </Routes>
       <Loader visible={isLoading} />
     </>
-  )
+  );
 };

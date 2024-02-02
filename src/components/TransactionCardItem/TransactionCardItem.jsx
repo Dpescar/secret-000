@@ -81,7 +81,7 @@ const TransactionCardItem = ({ data, handleModal, setData }) => {
         <CardLineButtonEdit type="button" onClick={handleEditClick}>
           <LuPencil style={{ fontSize: '13px', marginRight: '5px' }} />
           Edit
-          {/* <CardLinePEdit> Edit</CardLinePEdit> */}
+          {}
         </CardLineButtonEdit>
       </CardLine>
     </Card>
